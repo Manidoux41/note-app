@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# 📝 Note App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bienvenue dans **Note App**, une application mobile de prise de notes rapide et simple d'utilisation. Elle est construite avec **React Native**, gérée avec **Expo** et utilise **Supabase** pour l’authentification et la persistance des données. L’objectif est de permettre aux utilisateurs de créer, consulter, modifier et supprimer leurs notes en toute sécurité.
 
-## Get started
+## 🚀 Fonctionnalités prévues
 
-1. Install dependencies
+- [x] Authentification utilisateur via Supabase
+- [x] Interface mobile avec React Native & Expo Router
+- [ ] Création et suppression de notes
+- [ ] Modification de notes
+- [ ] Affichage par liste ou vue détaillée
+- [ ] Synchronisation en temps réel
+- [ ] UI responsive avec **Tailwind CSS (via NativeWind)**
+- [ ] Déploiement sur iOS & Android
 
-   ```bash
-   npm install
-   ```
+## ⚙️ Stack technique
 
-2. Start the app
+| Technologie     | Usage                           |
+|----------------|----------------------------------|
+| React Native    | Framework mobile principal       |
+| Expo            | Environnement de développement  |
+| Expo Router     | Navigation (v2+)                |
+| Supabase        | Authentification & base de données |
+| Prisma (prévu)  | ORM pour communication serveur  |
+| NativeWind      | Styling avec Tailwind CSS       |
+| TypeScript      | Typage statique                 |
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Installation locale
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/Manidoux41/note-app.git
+cd note-app
+pnpm install
+pnpm start
